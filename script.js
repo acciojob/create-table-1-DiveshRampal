@@ -1,6 +1,5 @@
 function insert_Row() {
-    //Write your code here
- // Get the table element by ID
+    // Get the table element by ID
     const table = document.getElementById("sampleTable");
 
     // Create a new row (<tr>) element
@@ -8,11 +7,11 @@ function insert_Row() {
 
     // Create the left cell (<td>) with text "New Cell1"
     const newCell1 = document.createElement("td");
-    newCell1.textContent = "New Cell1";
+    newCell1.textContent = "New Cell1";  // Ensure this is exactly "New Cell1"
 
     // Create the right cell (<td>) with text "New Cell2"
     const newCell2 = document.createElement("td");
-    newCell2.textContent = "New Cell2";
+    newCell2.textContent = "New Cell2";  // Ensure this is exactly "New Cell2"
 
     // Append the cells to the new row
     newRow.appendChild(newCell1);
